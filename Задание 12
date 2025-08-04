@@ -1,0 +1,7 @@
+SELECT product_id,
+       name,
+       price as old_price,
+       price+((price*5)/ 100) as new_price
+FROM   products
+ORDER BY new_price desc, product_id ASC 
+LIMIT 87
