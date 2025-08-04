@@ -1,0 +1,4 @@
+SELECT user_id
+FROM   users
+WHERE  sex like '%female%'
+ORDER BY user_id asc limit 1000
