@@ -1,0 +1,11 @@
+SELECT product_id,
+       name,
+       price
+FROM   products 
+LIMIT 100
+
+--Задание:
+
+--Выведите все записи из таблицы products.
+
+--Поля в результирующей таблице: product_id, name, price
