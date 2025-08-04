@@ -1,0 +1,6 @@
+SELECT name,
+       length (name) as name_length,
+       price
+FROM   products
+ORDER BY name_length DESC 
+LIMIT 1
